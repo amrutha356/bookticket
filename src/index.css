@@ -1,80 +1,123 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-.nav-form{
-         width:500px;
-    
+
+.nav-1 {
+    position: sticky;
+    top: 0px;
 }
 
-.right{
-    padding-left: 500px;
+.nav-form {
+    width: 500px;
+
 }
 
-.nav-1{
-    background-color: rgb(51,53,69) !important;
-    padding-right: 700px;
-    
+.logo form {
+    padding-right: 1000px;
+    display: flex;
 }
 
-.nav-2{
-    background-color: rgb(31,37,51);
-    padding-left: 5px;
-}
-.carousel{
-    background-color: gray;
-    border-radius: 20px;
+.nav-1 {
+    background-color: rgb(51, 53, 69) !important;
+    padding-left: 700px;
+
 }
 
-
-.div-card{
-    padding: aut0;
+.links {
+    padding-right: 200px;
 }
 
+.links li {
+    display: inline;
+    margin: 0px 15px;
 
-.eachSeat{
-    width: 50px;
-    height: 50px;
+}
+
+.a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.links li:hover {
+    border-bottom: 1px solid white;
+}
+
+.btn {
+    width: 100px;
+}
+
+.eachSeat {
+    width: 40px;
+    height: 40px;
     font-size: 15px;
     padding: 5px;
     background-color: white;
     color: green;
     border: 1px solid green;
+    border-radius: 8px;
+
 }
-.eachSeat:hover{
+
+.eachSeat:hover {
     background-color: green;
     color: white;
 
 }
-.seatHall{
-    width: 70vw;
-    height: auto;
-    padding: 10px;
-    margin: auto;
-    border: 3px solid red;
-    display: grid;
-    grid-template-columns: repeat(10 , 50px);
-    column-gap: 20px;
-    row-gap: 10px;
+
+.hall-seat h1 {
+    font-size: 20px;
+    font-family: cursive;
+    color: gray;
+    text-align: left;
+    padding-top: 70px;
 
 }
 
+.hall-seat {
+    width: 1000px;
+    height: 800px;
+    background-color: white;
+
+}
+
+.seatHall {
+    width: 70vw;
+    height: auto;
+    padding-right: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    column-gap: 20px;
+    row-gap: 10px;
 
 
+}
 
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 600px);
+    justify-content: center;
+    padding: 15px;
+    column-gap: 10px;
+    row-gap: 30px;
+}
 
+.cards img {
+    box-sizing: border-box;
+    border-radius: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.bttn {
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    font-family: cursive;
+    border: none;
+    transition: all 0.2 ease-in;
+}
 
 
